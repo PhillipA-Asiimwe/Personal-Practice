@@ -15,9 +15,9 @@ public class Maze {
         rows = rw; 
         columns = cl;
         grid = new byte[rw][cl];
-        for (rw=0;rw<rows;rw++){
-            for (cl=0; cl<columns;cl++){
-                grid[rw][cl] = WALL;
+        for (int r=0;r<rows;r++){
+            for (int c=0; c<columns;c++){
+                grid[r][c] = WALL;
             }
         }
     }
@@ -65,7 +65,7 @@ public class Maze {
     public void carve(int rw, int cl){
         ArrayList<Integer> rowOffSets = new ArrayList<Integer>(Arrays.asList(-1,1,0,0));
         ArrayList<Integer> colOffSets = new ArrayList<Integer>(Arrays.asList(0,0,-1,1));
-        if (rw==0 || rw == rows-1 || cl ==0 || cl==columns){
+        if (rw==0 || rw == rows -1 || cl ==0 || cl==columns-1 ){
             return;
         }else if (wallAt(rw, cl)){
             int count = 0 ; 
