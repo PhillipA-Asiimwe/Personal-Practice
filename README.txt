@@ -1,0 +1,1 @@
+Repository filled with coding practices of the day, different techniques im leanring in personal study and assesments. 
