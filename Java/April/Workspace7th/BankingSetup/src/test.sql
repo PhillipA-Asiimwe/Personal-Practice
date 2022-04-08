@@ -1,0 +1,3 @@
+DECLARE
+num AS Number ; 
+CREATE Or ALTER FUNCTION to_cunumbr (NUM INT) 
