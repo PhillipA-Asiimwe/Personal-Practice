@@ -1,11 +1,11 @@
 CREATE or ALTER PACKAGE BANK AS
     ---Customer---
      FUNCTION to_cunumbr(num IN number) RETURN Customer.C#%type; FUNCTION newCustomer(name IN Customer.name%type) RETURN VARCHAR;
-     PROCEDURE chekcust(cname IN Customer.Name%type,bull OUT BOOLEAN);
-     PROCEDURE h8stcust(higest OUT Customer.C#%type);
+     Procedure chekcust(cname IN Customer.Name%type,bull OUT BOOLEAN);
+     Procedure h8stcust(higest OUT Customer.C#%type);
      FUNCTION rmv_customer(name IN Customer.Name%type) Return VARCHAR;
      ---BRANCH---
-     PROCEDURE ibranch(bn IN number ,addy IN char,newb out Branch.B#%type);
+     Procedure ibranch(bn IN number ,addy IN char,newb out Branch.B#%type);
      FUNCTION branch_fun(addy1 IN Branch.Address%type) RETURN Branch.B#%type;
      FUNCTION open_branch(addy2 IN Branch.Address%type) RETURN VARCHAR;
      Procedure close_branch(addy IN Branch.Address%type);

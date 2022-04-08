@@ -1,4 +1,3 @@
-Use Bank 
 drop table Branch;
 drop table Account;
 drop table Customer;
