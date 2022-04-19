@@ -12,6 +12,11 @@ Performance requirements
 size(), get(i) and set(i,x) take constant time
 remove(i) and add(i,x) O(1+min{i,n-i})
 
+PhilsTable implements myabstract table implementation. 
+Get() and set() take constant time
+addRows(i) and removeRows(i) take O(1+row()-i) Time 
+addCols(i) and removeCols(i) take O((1+cols()-i)*rows()) Time
+
 
 Test the classes I created and make sure they work as intended. Testing for correctness and runtime. 
 
