@@ -7,7 +7,7 @@ import javax.swing.InputMap;
 public class App {
     //JDBC driver and url initialization
     static final String JDBC_DRIVER = "oracle.jdbc.OracleDriver";
-    static final String DB_URL = "jdbc:sqlserver://localhost;databaseName=bank;integratedSecurity=true;";
+    static final String DB_URL = "jdbc:sqlserver://localhost;databaseName=Bank;integratedSecurity=true;";
     //Database credentials
     static final String USER = "root";
     static final String PASS = "MYsql12";

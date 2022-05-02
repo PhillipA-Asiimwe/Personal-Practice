@@ -3,6 +3,8 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.28.jar"
+        "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.28.jar",
+        "mssql-jdbc-10.2.0.jre17.jar",
+        "c:\\Program Files\\Microsoft JDBC DRIVER 10.2 for SQL Server\\sqljdbc_10.2\\enu\\mssql-jdbc-10.2.0.jre17.jar"
     ]
 }
